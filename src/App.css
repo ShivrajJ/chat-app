@@ -1,0 +1,67 @@
+#root {
+  /* max-width: 1280px; */
+  width:100vw;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.chat-div {
+  width:100vw;
+  display: flex;
+  height: 100vh;
+}
+
+.message {
+  background-color: rgb(38, 46, 54);
+  border: 0.5px solid rgba(211, 211, 211, 0.5);
+}
+
+.rooms-div {
+  width: 15vw;
+  display:flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.room-button {
+  border-radius: 0px;
+  width: 100%;
+}
+
+.messages-div {
+  width: 70vw;
+}
+
+.messages-list-div {
+  height: 90vh;
+}
+
+.messages-list {
+  list-style-type: none;
+  margin-top: 0px;
+  padding-left: 0;
+}
+
+#input {
+  width: 90%;
+  margin-right: 10px;
+}
+
+.active-room-tab button {
+  background-color: blue;
+}
+
+.notif-tab button {
+  background-color: red;
+}
+.login-div {
+  width:100vw;
+  display:flex;
+  flex-direction: column;
+}
+.register-text {
+  align-self:center;
+}
